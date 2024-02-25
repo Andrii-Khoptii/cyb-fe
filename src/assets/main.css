@@ -1,0 +1,11 @@
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+  width: 100%;
+  height: 100vh;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
